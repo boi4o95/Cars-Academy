@@ -1,0 +1,13 @@
+.home-page {
+    
+    .img-background {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(rgba(30, 32, 34, 0.4),rgba(15, 18, 21, 0.4)), url('../assets/Home-dark.jpg');
+        background-size: cover;
+    }
+}

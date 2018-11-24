@@ -7,7 +7,7 @@
         top: 0;
         left: 0;
         z-index: -1;
-        background: linear-gradient(rgba(30, 32, 34, 0.4),rgba(15, 18, 21, 0.4)), url('../assets/Home-dark.jpg');
+        background:linear-gradient(rgba(30,32,34,.4),rgba(15,18,21,.4)),url(../assets/Home-dark.jpg) center;
         background-size: cover;
     }
 
@@ -16,8 +16,14 @@
         text-align: center;
         color: white;
 
-        button {
+        p {
+            margin: 5rem 0 0.5rem 0;
+        }
+
+        .button {
+            text-decoration: none;
             padding: 1rem;
+            margin: 1rem;
             background: red;
             color: white;
             font-weight: 900;

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+
+$fa-font-path: '../fontawesome/webfonts';
+
+@import '../fontawesome/scss/fontawesome';
+@import '../fontawesome/scss/brands';
+@import '../fontawesome/scss/regular';
+@import '../fontawesome/scss/solid';
+
+
 @import 'variables';
 @import 'reset';
 @import 'typography';

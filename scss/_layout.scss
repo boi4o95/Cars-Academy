@@ -1,9 +1,10 @@
 .site {
-	padding: var(--spacing-site, 2em);
+
 
 	.site-header {
 		display: flex;
 		justify-content: space-between;
+		padding:  2rem;
 	}
 	
 	.site-title {

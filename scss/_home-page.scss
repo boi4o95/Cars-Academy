@@ -6,30 +6,28 @@
         top: 0;
         left: 0;
         z-index: -1;
-        background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/Home-dark.jpg) center;
+        background:linear-gradient(rgba(30,32,34,0.2),rgba(15,18,21,0.2)),url(../assets/Home-dark.jpg) center;
         background-size: cover;
     }
 }
 
 .home-page {
-    .info {
-        margin-top: 5rem;
-        text-align: center;
+    margin-top: 5rem;
+    text-align: center;
 
-        p {
-            margin: 5rem 0 0.5rem 0;
-            color: white;
-        }
+    p {
+        margin: 5rem 0 0.5rem 0;
+        color: var(--text-white-color, white);
+    }
 
-        .button {
-            text-decoration: none;
-            padding: 1rem;
-            margin: 1rem;
-            background: #CC343Eed;
-            color: white;
-            font-weight: 900;
-            border: none;
-            border-radius: 2rem;
-        }
+    .button {
+        text-decoration: none;
+        padding: 1rem;
+        margin: 1rem;
+        background: var(--colr-red, red);
+        color:  var(--text-white-color, white);
+        font-weight: 900;
+        border: none;
+        border-radius: 2rem;
     }
 }

@@ -8,7 +8,7 @@
         top: 0;
         left: 0;
         z-index: -1;
-        background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
+        background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img3.jpg) center;
         background-size: 100% 100%;
         
         @include mq ("phone", min) {
@@ -74,6 +74,7 @@
 
             &:hover{
                 transform: scale(1.2);
+                
             }
         }
         

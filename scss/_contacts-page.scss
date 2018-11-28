@@ -9,42 +9,66 @@
         left: 0;
         z-index: -1;
         background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
-        background-size: cover;
+        background-size: 100% 100%;
+
+        @include mq ("phone", min) {
+            background-size: cover;
+        }
     }
 }
 
 #contact-title {
     margin-top: 5em;
+
+    @include mq("tablet-small", min) {
+        margin-top: 3em;
+    }
+
+    @include mq("tablet-wide", min) {
+        margin-top: 7em;
+    }
 }
 
 .contacts {
     display: flex;
+    flex-direction: column;
     margin-top: 5rem;
     text-align: left;
 
+    @include mq("tablet", min) {
+        flex-direction: row;
+    }
+
     article{
-        width: 50%;
         color:  var(--text-white-color, white);
+        width: 100%;
         font-size: 1.2em;
-        padding: 5em;
+        padding: 2em;
+        text-align: center;
         
         .fas {
             padding-right: 0.5rem;
             color: var(--colr-red, red);
         }
+
+        @include mq("tablet", min) {
+            width: 50%;
+            padding: 5em;
+        }
     }
 
     form {
-        width: 50%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
 
         input {
-            width: 45%;
+            width: 80%;
         }
         
         textarea {
-            width: 93%;
+            width: 80%;
             height: 200px;
-            
         }
 
         input, textarea {
@@ -71,6 +95,18 @@
             border: none;
             margin: auto;
             border-radius: 10px;
+        }
+
+        @include mq("tablet", min) {
+            width: 50%;
+
+            input {
+                width: 45%;
+            }
+            
+            textarea {
+                width: 93%;
+            }
         }
     }
 }

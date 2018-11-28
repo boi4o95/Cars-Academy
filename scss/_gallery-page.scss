@@ -9,16 +9,28 @@
         left: 0;
         z-index: -1;
         background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
-        background-size: cover;
+        background-size: 100% 100%;
+        
+        @include mq ("phone", min) {
+            background-size: cover;
+        }
     }
 }
 
 #gallery-title {
     margin-top: 5em;
+
+    @include mq("tablet-small", min) {
+        margin-top: 3em;
+    }
+
+    @include mq("tablet-wide", min) {
+        margin-top: 7em;
+    }
 }
 
 .gallery {
-    margin: 5rem 2rem 1rem 2rem;
+    margin: 7rem 2rem 1rem 2rem;
     
     h3{
         padding-top: 2rem;
@@ -28,9 +40,17 @@
         list-style: none;
         padding: 2rem;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
         grid-auto-flow: dense;
+
+        @include mq("tablet-small", min){
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include mq("tablet-wide", min){
+            grid-template-columns: repeat(4, 1fr);
+        }
 
         li {
             overflow: hidden;

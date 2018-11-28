@@ -1,138 +1,30 @@
-.site {
-	#nav-toggle,
-	#toggle {
-		display: none;
-	}
+.site-content {
+	padding-top: 1rem;
+}
 
-	#toggle {
-		position: relative;
-		flex: 1 0 100%;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-		padding: 1rem 0;
-	}
+.site-title {
+	font-family: Lobster;
+	font-size: 2.3em;
+	font-weight: 900;
+	padding-bottom: 0;
 	
-	#toggle:before {
-		display: block;
-		content: '';
-		position: relative;
-		padding-right: 0.3rem;
-		font-weight: bold;
-	}
-
-	@media screen and (max-width: 800px) {
-
-		#toggle {
-			display: flex;
-			margin: 0 auto;
-		}
-	
-		.navigation {
-			display: none;
-
-		}
-	
-		.navigation ul li:not(:first-child) {
-			padding-top: 0.5rem;
-		}
-	
-		#nav-toggle:checked + header nav.navigation {
-			display: block;
-			flex: 1 0 100%;
-		}
-	
-		#nav-toggle:checked + header #toggle:before {
-			content: 'X';
-		}
-	
-	}
-
-	.site-header {
-		display: flex;
-		text-align: center;
-		flex-direction: column;
-		padding:  2rem;
-
-		.site-title {
-			font-family: Lobster;
-			font-size: 2.3em;
-			font-weight: 900;
-			padding-bottom: 1.2em;
-			
-			a {
-				text-decoration: none;
-				color: white;
-			}
-		}
-	
-		.navigation {
-			//display: flex;
-			//justify-content: center;
-			ul {
-				display: flex;
-				align-items: center;
-				flex-direction: column;
-				justify-content: center;
-				list-style: none;
-				padding: 0 2rem;
-			}
-
-			li {
-				padding: 1rem 0;
-			}
-
-			a {
-				text-decoration: none;
-				font-size: 1.6em;
-				padding: 0.8em;
-				font-weight: 800;
-				color: white;
-				text-transform: uppercase;
-			}
-			@include mq("phone-wide", min){
-				a { 
-					font-size: 1.2em;
-				}
-			}
-		}
-
-		@include mq("tablet-wide", min){
-			flex-direction: row;
-			justify-content: space-between;
-
-			.navigation {
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-
-				ul {
-					flex-direction: row;
-					padding: 0;
-				}
-			}
-		}
-	}
-	
-
-	.site-content {
-		padding-top: 1rem;
-	}
-
-	.site-footer {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		padding: 1rem;
-		background: #000;
-		color: white;
-		text-align: center;
-		
-		p {
-			padding: 0;
-		}
+	a {
+		text-decoration: none;
+		color: var(--text-white-color, white);
 	}
 }
 
-
+.site-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background: #000;
+	color: var(--text-white-color, white);
+	text-align: center;
+	
+	p {
+		padding: 0;
+	}
+}

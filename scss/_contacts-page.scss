@@ -1,32 +1,5 @@
-.site-content {
-    text-align: center;
-
-    .img-contact {
-        width: 100%;
-        height: 450px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
+.contact {
         background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
-        background-size: 100% 100%;
-
-        @include mq ("phone", min) {
-            background-size: cover;
-        }
-    }
-}
-
-#contact-title {
-    margin-top: 5em;
-
-    @include mq("tablet-small", min) {
-        margin-top: 3em;
-    }
-
-    @include mq("tablet-wide", min) {
-        margin-top: 7em;
-    }
 }
 
 .contacts {
@@ -40,7 +13,6 @@
     }
 
     article{
-        color:  var(--text-white-color, white);
         width: 100%;
         font-size: 1.2em;
         padding: 2em;

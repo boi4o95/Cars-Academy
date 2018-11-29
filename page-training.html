@@ -4,17 +4,18 @@ title: За нас
 permalink: /training/
 ---
 
-<div class="img-training"></div>
-<h1>Обучения</h1>
+<div class="img-layout training"></div>
+<h2 class="layout-title">Обучения</h2>
 
-
-<ul class="listing posts">
-	{% for post in site.posts %}
-	<li>
-		<a href="{{ site.baseurl }}{{ post.url }}">
-			<span class="title">{{ post.title }}</span>
-			<img src="{{ post.image }}" alt="">
-		</a>
-	</li>
-	{% endfor %}
-</ul>
+<section class="listing">
+	<ul class="posts">
+		{% for post in site.posts %}
+		<li class="span-c2">
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<span class="title">{{ post.title }}</span>
+				<img src="{{ post.image }}">
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

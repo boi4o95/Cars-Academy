@@ -4,7 +4,7 @@
     }
     
 	#toggle {
-		color: var(--colr-red, white);
+		color: var(--colr-red, red);
 		display: flex;
 		justify-content: center;
 		font-size: 3.5em;
@@ -74,7 +74,6 @@
 				align-items: center;
 				flex-direction: column;
 				justify-content: center;
-				list-style: none;
 				padding: 0 2rem;
 			}
 
@@ -83,11 +82,9 @@
 			}
 
 			a {
-				text-decoration: none;
 				font-size: 1.6em;
 				padding: 0.8em;
 				font-weight: 800;
-				color: var(--text-white-color, white);
                 text-transform: uppercase;
                 
                 @include mq("phone-wide", min){

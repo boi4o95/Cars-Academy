@@ -39,11 +39,9 @@
 
     p {
         margin: 2rem 0 0.5rem 0;
-        color: var(--text-white-color, white);
     }
 
     .button {
-        text-decoration: none;
         padding: 1rem;
         margin: 1rem;
         background: var(--colr-red, red);
@@ -52,6 +50,4 @@
         border: none;
         border-radius: 2rem;
     }
-
-   
 }

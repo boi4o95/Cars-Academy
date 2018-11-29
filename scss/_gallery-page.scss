@@ -1,35 +1,8 @@
-.site-content {
-    text-align: center;
-
-    .img-gallery {
-        width: 100%;
-        height: 450px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img3.jpg) center;
-        background-size: 100% 100%;
-        
-        @include mq ("phone", min) {
-            background-size: cover;
-        }
-    }
-}
-
-#gallery-title {
-    margin-top: 5em;
-
-    @include mq("tablet-small", min) {
-        margin-top: 3em;
-    }
-
-    @include mq("tablet-wide", min) {
-        margin-top: 7em;
-    }
-}
-
 .gallery {
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img3.jpg) center;
+}
+
+.gallery-img {
     margin: 7rem 2rem 1rem 2rem;
     
     h3{
@@ -37,7 +10,6 @@
     }
     
     ul.picture {
-        list-style: none;
         padding: 2rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);

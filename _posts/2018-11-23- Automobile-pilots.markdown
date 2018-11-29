@@ -3,7 +3,7 @@ layout: site
 title:  "АВТОМОБИЛНИ ПИЛОТИ"
 date:   2018-11-20 19:01:29 +0200
 categories: training course
-image: /assets/Rally.jpg
+image: ../assets/Rally.jpg
 ---
 
 

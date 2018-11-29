@@ -1,3 +1,52 @@
 .training {
-    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img3.jpg) center;
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img2.jpg) center;
+}
+
+
+.listing {
+    margin: 7rem 2rem 1rem 2rem;
+    
+    ul.posts {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        grid-auto-flow: dense;
+
+        @include mq("tablet-small", min){
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include mq("tablet-wide", min){
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        li {
+            overflow: hidden;
+
+            &.span-c2 {
+                grid-column: span 2;
+                grid-row: span 2;
+            }        
+        }
+        a {
+            span {
+                position: absolute;
+                z-index: 1000;
+            }
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: all .6s;
+
+            &:hover{
+                transform: scale(1.2);
+                
+            }
+        }
+        
+       
+    }
 }

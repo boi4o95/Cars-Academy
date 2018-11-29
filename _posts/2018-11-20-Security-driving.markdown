@@ -3,7 +3,7 @@ layout: site
 title:  "БЕЗОПАСНО ШОФИРАНЕ"
 date:   2018-11-20 19:01:29 +0200
 categories: training course
-image: /assets/driving.jpg
+image: ../assets/driving.jpg
 ---
 
 <h3>Курсът</h3>

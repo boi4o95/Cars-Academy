@@ -3,7 +3,7 @@ layout: site
 title:  "МАЙСТОРСКО ШОФИРАНЕ"
 date:   2018-11-20 19:01:29 +0200
 categories: training course
-image: /assets/master-driving-1.jpg
+image: ../assets/master-driving-1.jpg
 ---
 
 <h3>Курсът</h3>

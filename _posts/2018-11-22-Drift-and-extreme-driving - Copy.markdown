@@ -3,7 +3,7 @@ layout: site
 title:  "ДРИФТ И ЕКСТРЕМНО ШОФИРАНЕ"
 date:   2018-11-20 19:01:29 +0200
 categories: training course
-image: /assets/drift-img1.jpg
+image: ../assets/drift-img1.jpg
 ---
 
 

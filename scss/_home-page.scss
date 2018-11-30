@@ -16,10 +16,13 @@
 
 .home-page {
     margin-top: 5rem;
+    padding: 0px 15px;
     text-align: center;
 
     #home-title {
         font-size: 1.2em;
+        text-shadow: 4px 5px 3px rgba(0,0,0, 1);
+
         @include mq ("phablet", min) {
             font-size: 1.6em;
         }
@@ -48,6 +51,7 @@
         color:  var(--text-white-color, white);
         font-weight: 900;
         border: none;
+        outline: none;
         border-radius: 2rem;
     }
 }

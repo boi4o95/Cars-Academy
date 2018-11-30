@@ -1,5 +1,5 @@
 .contact {
-        background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/contacts.jpg) center;
 }
 
 .contacts {
@@ -65,6 +65,7 @@
             background: var(--colr-red, red);
             color:  var(--text-white-color, white);
             border: none;
+            outline: none;
             margin: auto;
             border-radius: 10px;
         }

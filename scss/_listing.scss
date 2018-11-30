@@ -1,0 +1,17 @@
+.security {
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/driving.jpg) center;
+}
+
+
+.title {
+    margin: 5em;
+    text-align: left;
+
+    @include mq("tablet-small", min) {
+        margin-top: 3em;
+    }
+
+    @include mq("tablet-wide", min) {
+        margin-top: 7em;
+    }
+}

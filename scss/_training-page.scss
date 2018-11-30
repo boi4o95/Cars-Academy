@@ -13,16 +13,13 @@
         grid-gap: 1rem;
         grid-auto-flow: dense;
 
-        @include mq("tablet-small", min){
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-        @include mq("tablet-wide", min){
+        @include mq("tablet", min){
             grid-template-columns: repeat(4, 1fr);
         }
 
         li {
             overflow: hidden;
+            border-radius: 2rem; 
 
             &.span-c2 {
                 grid-column: span 2;
@@ -30,9 +27,28 @@
             }        
         }
         a {
-            span {
+            .title-training {
                 position: absolute;
                 z-index: 1000;
+                width: 65%;
+                margin-top: 5px;
+                text-shadow: 2px 0px 9px rgba(0, 0, 255, 1);
+                
+                @include mq("phone", min){
+                    width: 75%;
+                }
+
+                @include mq("phablet", min){
+                    width: 80%;
+                }
+
+                @include mq("tablet", min){
+                    width: 40%;
+                }
+
+                @include mq("tablet-wide", min){
+                    width: 45%;
+                }
             }
         }
         img {

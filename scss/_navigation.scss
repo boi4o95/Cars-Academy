@@ -28,7 +28,7 @@
 		font-weight: bold;
 	}
 	.navigation {
-		display: none;
+		display: block;
 		
 		& ul li:not(:first-child) {
 			padding-top: 0.5rem;
@@ -37,16 +37,16 @@
 
 	#nav-toggle{
 		&:checked + header nav.navigation {
-			display: block;
+			display: none;
 
 		}
 		
 		& + header #toggle:before {
-			content: '\2630';
+			content: 'X';
 		}
 	
 		&:checked + header #toggle:before {
-			content: 'X';
+			content: '\2630';
 		}
     }
     
@@ -54,8 +54,15 @@
 		#toggle {
 			display: none;
 		}
+
+		#nav-toggle{
+			&:checked + header nav.navigation {
+				display: block;
 	
-		.navigation {
+			}
+		}
+	
+		nav.navigation {
 			& ul li:not(:first-child) {
 				padding-top: 1rem;
 			}

@@ -2,6 +2,17 @@
     background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/driving.jpg) center;
 }
 
+.master {
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/master-driving-1.jpg) center;
+}
+
+.drift {
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img1.jpg) center;
+}
+
+.rally {
+    background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/Rally.jpg) center;
+}
 
 .title {
     margin: 5em;
@@ -13,5 +24,34 @@
 
     @include mq("tablet-wide", min) {
         margin-top: 7em;
+    }
+}
+
+.listing {
+    display: flex;
+    text-align: left;
+
+    .info-training{
+        width: 60%;
+        padding: 0px 2rem;
+    }
+
+    .info-curse {
+        width: 30%;
+        padding: 0px 2rem;
+
+        li {
+            display: flex;
+
+            .fas {
+                color: var(--color-red, red);
+                padding-right: 5rem;
+                width: 20%;
+                height: 100%;
+                margin: 1rem 0;
+                font-size: 3rem;
+                text-align: center;
+            }
+        }
     }
 }

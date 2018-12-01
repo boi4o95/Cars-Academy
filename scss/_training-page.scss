@@ -2,7 +2,6 @@
     background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/drift-img2.jpg) center;
 }
 
-
 .listing {
     margin: 7rem 2rem 1rem 2rem;
     
@@ -32,6 +31,7 @@
                 z-index: 1000;
                 width: 65%;
                 margin-top: 5px;
+                text-align: center;
                 text-shadow: 2px 0px 9px rgba(0, 0, 255, 1);
                 
                 @include mq("phone", min){
@@ -62,7 +62,5 @@
                 
             }
         }
-        
-       
     }
 }

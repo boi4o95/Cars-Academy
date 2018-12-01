@@ -8,7 +8,7 @@ image: ../assets/Rally.jpg
 
 <div class="img-layout rally"></div>
 <h2 class="layout-title left">АВТОМОБИЛНИ ПИЛОТИ</h2>
-<p class="left">За подготовка на автомобилни състезатели</p>
+<p class="description">За подготовка на автомобилни състезатели</p>
 
 <section class="listing">
     <article class="info-training">

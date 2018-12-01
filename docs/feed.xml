@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/Cars-Academy/feed.xml" rel="self" type="application/atom+xml" /><link href="/Cars-Academy/" rel="alternate" type="text/html" /><updated>2018-12-01T03:26:45+02:00</updated><id>/Cars-Academy/feed.xml</id><title type="html">Cars Academy</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">АВТОМОБИЛНИ ПИЛОТИ</title><link href="/Cars-Academy/training/course/2018/11/20/Automobile-pilots.html" rel="alternate" type="text/html" title="АВТОМОБИЛНИ ПИЛОТИ" /><published>2018-11-20T19:01:29+02:00</published><updated>2018-11-20T19:01:29+02:00</updated><id>/Cars-Academy/training/course/2018/11/20/%20Automobile-pilots</id><content type="html" xml:base="/Cars-Academy/training/course/2018/11/20/Automobile-pilots.html">&lt;div class=&quot;img-layout rally&quot;&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/Cars-Academy/feed.xml" rel="self" type="application/atom+xml" /><link href="/Cars-Academy/" rel="alternate" type="text/html" /><updated>2018-12-01T19:09:18+02:00</updated><id>/Cars-Academy/feed.xml</id><title type="html">Cars Academy</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">АВТОМОБИЛНИ ПИЛОТИ</title><link href="/Cars-Academy/training/course/2018/11/20/Automobile-pilots.html" rel="alternate" type="text/html" title="АВТОМОБИЛНИ ПИЛОТИ" /><published>2018-11-20T19:01:29+02:00</published><updated>2018-11-20T19:01:29+02:00</updated><id>/Cars-Academy/training/course/2018/11/20/%20Automobile-pilots</id><content type="html" xml:base="/Cars-Academy/training/course/2018/11/20/Automobile-pilots.html">&lt;div class=&quot;img-layout rally&quot;&gt;&lt;/div&gt;
 &lt;h2 class=&quot;layout-title left&quot;&gt;АВТОМОБИЛНИ ПИЛОТИ&lt;/h2&gt;
-&lt;p class=&quot;left&quot;&gt;За подготовка на автомобилни състезатели&lt;/p&gt;
+&lt;p class=&quot;description&quot;&gt;За подготовка на автомобилни състезатели&lt;/p&gt;
 
 &lt;section class=&quot;listing&quot;&gt;
     &lt;article class=&quot;info-training&quot;&gt;
@@ -36,7 +36,7 @@
 &lt;section&gt;
 &lt;/section&gt;&lt;/section&gt;</content><author><name></name></author><summary type="html">АВТОМОБИЛНИ ПИЛОТИ За подготовка на автомобилни състезатели</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/Rally.jpg" /></entry><entry><title type="html">БЕЗОПАСНО ШОФИРАНЕ</title><link href="/Cars-Academy/training/course/2018/11/20/Security-driving.html" rel="alternate" type="text/html" title="БЕЗОПАСНО ШОФИРАНЕ" /><published>2018-11-20T19:01:29+02:00</published><updated>2018-11-20T19:01:29+02:00</updated><id>/Cars-Academy/training/course/2018/11/20/Security-driving</id><content type="html" xml:base="/Cars-Academy/training/course/2018/11/20/Security-driving.html">&lt;div class=&quot;img-layout security&quot;&gt;&lt;/div&gt;
 &lt;h2 class=&quot;layout-title left&quot;&gt;БЕЗОПАСНО ШОФИРАНЕ&lt;/h2&gt;
-&lt;p class=&quot;left&quot;&gt;За хора, които желаят да се чувстват спокойни и уверени зад волана&lt;/p&gt;
+&lt;p class=&quot;description&quot;&gt;За хора, които желаят да се чувстват спокойни и уверени зад волана&lt;/p&gt;
 
 &lt;section class=&quot;listing&quot;&gt;
     &lt;article class=&quot;info-training&quot;&gt;
@@ -74,7 +74,7 @@
 &lt;section&gt;
 &lt;/section&gt;&lt;/section&gt;</content><author><name></name></author><summary type="html">БЕЗОПАСНО ШОФИРАНЕ За хора, които желаят да се чувстват спокойни и уверени зад волана</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/driving.jpg" /></entry><entry><title type="html">МАЙСТОРСКО ШОФИРАНЕ</title><link href="/Cars-Academy/training/course/2018/11/20/Master-driving.html" rel="alternate" type="text/html" title="МАЙСТОРСКО ШОФИРАНЕ" /><published>2018-11-20T19:01:29+02:00</published><updated>2018-11-20T19:01:29+02:00</updated><id>/Cars-Academy/training/course/2018/11/20/Master-driving</id><content type="html" xml:base="/Cars-Academy/training/course/2018/11/20/Master-driving.html">&lt;div class=&quot;img-layout master&quot;&gt;&lt;/div&gt;
 &lt;h2 class=&quot;layout-title left&quot;&gt;МАЙСТОРСКО ШОФИРАНЕ&lt;/h2&gt;
-&lt;p class=&quot;left&quot;&gt;За тези, които желаят да надградят своите умения и знания&lt;/p&gt;
+&lt;p class=&quot;description&quot;&gt;За тези, които желаят да надградят своите умения и знания&lt;/p&gt;
 
 &lt;section class=&quot;listing&quot;&gt;
     &lt;article class=&quot;info-training&quot;&gt;
@@ -111,7 +111,7 @@
 &lt;section&gt;
 &lt;/section&gt;&lt;/section&gt;</content><author><name></name></author><summary type="html">МАЙСТОРСКО ШОФИРАНЕ За тези, които желаят да надградят своите умения и знания</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/master-driving-1.jpg" /></entry><entry><title type="html">ДРИФТ И ЕКСТРЕМНО ШОФИРАНЕ</title><link href="/Cars-Academy/training/course/2018/11/20/Drift-and-extreme-driving-Copy.html" rel="alternate" type="text/html" title="ДРИФТ И ЕКСТРЕМНО ШОФИРАНЕ" /><published>2018-11-20T19:01:29+02:00</published><updated>2018-11-20T19:01:29+02:00</updated><id>/Cars-Academy/training/course/2018/11/20/Drift-and-extreme-driving%20-%20Copy</id><content type="html" xml:base="/Cars-Academy/training/course/2018/11/20/Drift-and-extreme-driving-Copy.html">&lt;div class=&quot;img-layout drift&quot;&gt;&lt;/div&gt;
 &lt;h2 class=&quot;layout-title left&quot;&gt;ДРИФТ И ЕКСТРЕМНО ШОФИРАНЕ&lt;/h2&gt;
-&lt;p class=&quot;left&quot;&gt;За хора, които търсят адреналина и екстремните усещания&lt;/p&gt;
+&lt;p class=&quot;description&quot;&gt;За хора, които търсят адреналина и екстремните усещания&lt;/p&gt;
 
 &lt;section class=&quot;listing&quot;&gt;
     &lt;article class=&quot;info-training&quot;&gt;

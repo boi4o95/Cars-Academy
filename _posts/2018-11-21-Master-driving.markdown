@@ -8,7 +8,7 @@ image: ../assets/master-driving-1.jpg
 
 <div class="img-layout master"></div>
 <h2 class="layout-title left">МАЙСТОРСКО ШОФИРАНЕ</h2>
-<p class="left">За тези, които желаят да надградят своите умения и знания</p>
+<p class="description">За тези, които желаят да надградят своите умения и знания</p>
 
 <section class="listing">
     <article class="info-training">

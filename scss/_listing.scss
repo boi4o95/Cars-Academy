@@ -14,35 +14,27 @@
     background:linear-gradient(rgba(30,32,34,0.4),rgba(15,18,21,0.4)),url(../assets/Rally.jpg) center;
 }
 
-.title {
-    margin: 5em;
-    text-align: left;
-
-    @include mq("tablet-small", min) {
-        margin-top: 3em;
-    }
-
-    @include mq("tablet-wide", min) {
-        margin-top: 7em;
-    }
+.description{
+    padding: 0 2rem;
 }
 
 .listing {
     display: flex;
+    flex-direction: column;
     text-align: left;
 
     .info-training{
-        width: 60%;
-        padding: 0px 2rem;
+        width: 100%;
+        padding: 0 2rem;
     }
 
     .info-curse {
-        width: 30%;
-        padding: 0px 2rem;
+        width: 100%;
+        padding: 2rem 0;
 
         li {
             display: flex;
-
+            
             .fas {
                 color: var(--color-red, red);
                 padding-right: 5rem;
@@ -52,6 +44,29 @@
                 font-size: 3rem;
                 text-align: center;
             }
+        }
+    }
+
+    @include mq("tablet", min) {
+        flex-direction: row;
+
+        .info-training{
+            width: 50%;
+            padding: 0px 2rem;
+        }
+
+        .info-curse {
+            width: 50%;
+        }
+    }
+
+    @include mq("desktop", min) {
+        .info-training{
+            width: 60%;
+        }
+
+        .info-curse {
+            width: 40%;
         }
     }
 }

@@ -114,6 +114,10 @@
 					flex-direction: row;
 					padding: 0;
 				}
+
+				li:hover{
+					border-bottom: 4px solid  var(--color-red, red);
+				}
 			}
 		}
 	}

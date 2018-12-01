@@ -8,7 +8,7 @@ image: ../assets/drift-img1.jpg
 
 <div class="img-layout drift"></div>
 <h2 class="layout-title left">ДРИФТ И ЕКСТРЕМНО ШОФИРАНЕ</h2>
-<p class="left">За хора, които търсят адреналина и екстремните усещания</p>
+<p class="description">За хора, които търсят адреналина и екстремните усещания</p>
 
 <section class="listing">
     <article class="info-training">
